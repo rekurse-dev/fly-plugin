@@ -9,3 +9,4 @@ commands:
     description: Toggles flight mode
     usage: /fly
     permission: flyplugin.fly
+    permission-message: You do not have permission to use fly.
