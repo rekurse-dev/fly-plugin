@@ -8,10 +8,9 @@ Simple, yet powerful.
 Requires you to grant `flyplugin.fly` to a specified player.
 
 ## Supported Versions
-**Supported Versions:** 1.21-26.3
-
-**Tested Versions:** 1.21.11, 26.2, 26.3
-*Note: This plugin may work on older versions, but it has not been officially tested on them.*
+* **Supported Versions:** 1.21-26.3
+* **Tested Versions:** 1.21.11, 26.2, 26.3
+* *Note: This plugin may work on older versions, but it has not been officially tested on them.*
 
 ## How To Install
 1. Download the latest .jar file through Modrinth or GitHub
