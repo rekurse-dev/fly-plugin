@@ -1,0 +1,11 @@
+main: com.rekurse.flyplugin.FlyPlugin
+version: 1.0.0
+name: FlyPlugin
+author: Rekurse
+description: Fly Plugin for Minecraft
+api-version: 1.21
+commands:
+  fly:
+    description: Toggles flight mode
+    usage: /fly
+    permission: flyplugin.fly

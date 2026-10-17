@@ -1,0 +1,8 @@
+/target/
+/.settings/
+/.classpath
+/.project
+/.idea/
+*.jar
+*.class
+generated-sources/
