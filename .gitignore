@@ -6,3 +6,4 @@
 *.jar
 *.class
 generated-sources/
+.vscode/settings.json
