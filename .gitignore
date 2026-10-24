@@ -7,3 +7,5 @@
 *.class
 generated-sources/
 .vscode/settings.json
+*.tmp
+*.log
