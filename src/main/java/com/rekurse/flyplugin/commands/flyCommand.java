@@ -24,6 +24,11 @@ public class flyCommand implements CommandExecutor {
             }
 
             if (args[1].equalsIgnoreCase("enable")) {
+                if (target.getAllowFlight()) {
+                    sender.sendMessage("§e" + target.getName() + " already has flight enabled!"); // inform the sender that the target already has flight enabled
+                    return true;
+                }
+
                 target.setAllowFlight(true);
                 sender.sendMessage("§aFlight enabled for " + target.getName());
                 target.sendMessage("§aFlight enabled!");
@@ -31,6 +36,11 @@ public class flyCommand implements CommandExecutor {
             }
 
             if (args[1].equalsIgnoreCase("disable")) {
+                if (!target.getAllowFlight()) {
+                    sender.sendMessage("§e" + target.getName() + " already has flight disabled!"); // inform the sender that the target already has flight disabled
+                    return true;
+                }
+
                 target.setFlying(false);
                 target.setAllowFlight(false);
                 sender.sendMessage("§cFlight disabled for " + target.getName());
