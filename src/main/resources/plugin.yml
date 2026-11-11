@@ -10,3 +10,8 @@ commands:
     usage: /fly
     permission: flyplugin.fly
     permission-message: You do not have permission to use fly.
+
+permissions:
+  flyplugin.fly: 
+    description: Allows controlling flight
+    default: op
